@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.gradient{
+    position: absolute;
+    width: 800px;
+    height: 150px;
+    margin: auto;
+    background-color: #18b2de;
+    filter: blur(100px);
+    top: -100px;
+    z-index: -1;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.links a {
+  text-decoration: none;
+  color: #8ea6bb;
+  font-weight: 500;
+}
+
+.links a:hover {
+  color: var(--white);
+  transition: all 0.3s;
+}
+
+.link-active{
+    color: var(--white) !important;
+}
+
+@media all and (max-width: 500px){
+  .links a{
+    font-size: calc(100% - 20%);
+  }
+  .gradient{
+    width: 350px;
+  }
+}

@@ -1,0 +1,20 @@
+.episode-details-container {
+  margin-bottom: 1.5rem;
+}
+
+.episode-details-desc {
+  color: var(--purple-grey);
+}
+
+.episode-details-container .custom-btn {
+  width: 10%;
+}
+
+@media all and (max-width: 500px) {
+  .episode-details-container .custom-btn {
+    width: 40%;
+  }
+  .episode-details-container h2 {
+    margin-bottom: 0.8rem;
+  }
+}

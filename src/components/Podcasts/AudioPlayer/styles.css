@@ -1,0 +1,134 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.audio-player-div-mobile{
+  display: none;
+}
+.audio-player-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 3rem;
+  background-color: rgba(14, 2, 21, 0.5);
+  z-index: 1;
+}
+
+.audio-player-img {
+  height: 40px;
+  object-fit: cover;
+}
+.audio-range-div {
+  display: flex;
+  align-items: center;
+  width: 45%;
+  gap: 1rem;
+}
+
+.audio-range {
+  width: 60%;
+  flex-shrink: 0;
+  filter: hue-rotate(25deg);
+}
+
+.volume-range-div {
+  display: flex;
+  align-items: center;
+  width: 15%;
+  gap: 1rem;
+}
+
+.volume-range {
+  width: 60%;
+  flex-shrink: 0;
+  filter: hue-rotate(25deg);
+}
+
+.audio-player-div .audio-player-btn{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+@media all and (max-width: 500px){
+  .audio-player-div{
+    display: none;
+  }
+
+  .audio-player-div-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.8rem 0.8rem !important;
+    padding-bottom: 1.3rem !important;
+    background-color: rgba(14, 2, 21, 0.5);
+    z-index: 1;
+    gap: 0.5rem;
+  }
+
+  .audio-player-div-mobile{
+    padding: 0.3rem 0.5rem;
+  }
+
+  .audio-player-div-mobile .audio-range-div{
+    flex-direction: column;
+  }
+  .audio-player-div-mobile .range-div{
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .audio-player-div-mobile .audio-player-btn:nth-child(2){
+    font-size: 1.5rem;
+  }
+  .audio-player-div-mobile{
+    font-size: calc(100% - 20%);
+  }
+
+  .audio-player-div-mobile .audio-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .volume-range-div-mobile{
+    display: flex;
+    gap: 0.5rem;
+    /* justify-self: flex-start; */
+    width: 28%;
+  }
+
+  .vol-range-percent{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .volume-percentage{
+    align-self: center;
+  }
+
+  .volume-range{
+    width: 100%;
+  }
+
+  /* .audio-range-div{
+    width: 60%;
+    gap: 0.4rem;
+  }
+  .audio-range{
+    width: 40%;
+  } */
+}
