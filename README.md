@@ -1,6 +1,6 @@
 # Podcast App
 
-Introducing a feature-rich [podcast application](https://podcast-app-react-eosin.vercel.app/){:target="_blank"} designed to revolutionize your audio streaming experience. Built with a combination of HTML, CSS, JavaScript, React, Redux Toolkit, and integrated with Google Firebase for backend services, Podify offers a comprehensive suite of features to meet all your podcasting needs.
+Introducing a feature-rich <a href="https://podcast-app-react-eosin.vercel.app/" target="_blank">Podcast Application</a> designed to revolutionize your audio streaming experience. Built with a combination of HTML, CSS, JavaScript, React, Redux Toolkit, and integrated with Google Firebase for backend services, Podify offers a comprehensive suite of features to meet all your podcasting needs.
 
 ## Features
 
