@@ -84,6 +84,7 @@ function CreateEpisode() {
         setTitle("");
         setDesc("");
         setAudioFile(null);
+        navigate(`/podcasts/${id}`);
         setLoading(false);
       } catch (error) {
         if (toastId) {
